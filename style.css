@@ -1,0 +1,52 @@
+body {
+  background-color: #ededed;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.index {
+  font-size: 36px;
+  margin-top: 300px;
+
+  margin-bottom: 30px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.indicator {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #888;
+}
+
+#index {
+  position: relative;
+}
+
+#pointer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%) rotate(-90deg);
+  width: 200px; /* Largura da imagem do ponteiro */
+  height: 200px; /* Altura da imagem do ponteiro */
+  z-index: 1;
+}
+.frase1 {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 10px px;
+}
